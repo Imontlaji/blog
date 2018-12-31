@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>狗滑稽的博客</title>
+  
+  
+  <link href="/blog/atom.xml" rel="self"/>
+  
+  <link href="https://imontlaji.github.io/blog/"/>
+  <updated>2018-12-31T10:59:33.019Z</updated>
+  <id>https://imontlaji.github.io/blog/</id>
+  
+  <author>
+    <name>我不是辣稽</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>解决迅雷下载出现 敏感资源 的问题</title>
+    <link href="https://imontlaji.github.io/blog/2018/12/31/%E8%A7%A3%E5%86%B3%E8%BF%85%E9%9B%B7%E4%B8%8B%E8%BD%BD%E5%87%BA%E7%8E%B0-%E6%95%8F%E6%84%9F%E8%B5%84%E6%BA%90-%E7%9A%84%E9%97%AE%E9%A2%98/"/>
+    <id>https://imontlaji.github.io/blog/2018/12/31/解决迅雷下载出现-敏感资源-的问题/</id>
+    <published>2018-12-31T10:23:34.000Z</published>
+    <updated>2018-12-31T10:59:33.019Z</updated>
+    
+    <content type="html"><![CDATA[<blockquote><p>使用高版本的迅雷下载 <del>小电影</del> 的时候，经常会出现 <code>敏感资源</code> 或者 <code>应版权方要求</code>。而种子洗白的方法虽然可用，但是经常速度为0。那么本篇文章将会介绍一个新的方法，使迅雷能够正常下载出现以上两种提示的文件。</p></blockquote><h1 id="开始操作"><a href="#开始操作" class="headerlink" title="开始操作"></a>开始操作</h1><blockquote><p>可能用到的文件：</p><ul><li><a href="https://pan.baidu.com/s/1i7jEOXR" target="_blank" rel="noopener">下载 提取码：e489</a></li></ul></blockquote><p>其实这个方法，就是使用老版本的 <code>迅雷5</code> 。</p><p>下载完后，按照提示安装，之后打开即可。</p><blockquote><p>迅雷5所拥有的优点：</p><ul><li>和高版本的迅雷速度相比，几乎没什么差别。</li><li>轻量化，无广告。</li><li>没有恶心人的会员加速制度。</li></ul></blockquote><div align="center"><img src="/blog/2018/12/31/解决迅雷下载出现-敏感资源-的问题/Thunder-1.png" alt="主界面"></div><p>如图， <code>迅雷5</code> 可轻松下载敏感资源并保持了较高的速度(2.2Mb/s)。</p><h1 id="下载磁力链接文件"><a href="#下载磁力链接文件" class="headerlink" title="下载磁力链接文件"></a>下载磁力链接文件</h1><p><code>迅雷5</code> 虽好，但是它却有一个缺点：不支持磁力链接。</p><p>其实这个问题非常好解决，只要访问 <a href="http://www.torrent.org.cn/" target="_blank" rel="noopener">这个网站</a> 即可将磁力链接转换为种子文件，让 <code>迅雷5</code> 也能够下载。</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;blockquote&gt;
+&lt;p&gt;使用高版本的迅雷下载 &lt;del&gt;小电影&lt;/del&gt; 的时候，经常会出现 &lt;code&gt;敏感资源&lt;/code&gt; 或者 &lt;code&gt;应版权方要求&lt;/code&gt;。而种子洗白的方法虽然可用，但是经常速度为0。那么本篇文章将会介绍一个新的方法，使迅雷能够正常下
+      
+    
+    </summary>
+    
+      <category term="Other" scheme="https://imontlaji.github.io/blog/categories/Other/"/>
+    
+    
+      <category term="实用教程" scheme="https://imontlaji.github.io/blog/tags/%E5%AE%9E%E7%94%A8%E6%95%99%E7%A8%8B/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>解决Origin平台下载速度问题</title>
+    <link href="https://imontlaji.github.io/blog/2018/12/31/%E8%A7%A3%E5%86%B3Origin%E5%B9%B3%E5%8F%B0%E4%B8%8B%E8%BD%BD%E9%80%9F%E5%BA%A6%E9%97%AE%E9%A2%98/"/>
+    <id>https://imontlaji.github.io/blog/2018/12/31/解决Origin平台下载速度问题/</id>
+    <published>2018-12-31T06:00:27.000Z</published>
+    <updated>2018-12-31T06:47:54.944Z</updated>
+    
+    <content type="html"><![CDATA[<blockquote><p>由于众所周知的原因，Origin平台在国内的下载速度一直是惨不忍睹的，那么除了使用加速器加速平台外，还有没有什么方法呢？</p></blockquote><hr><blockquote><p>可能会用到的工具：</p><ul><li><a href="https://www.dogfight360.com/blog/wp-content/uploads/2018/01/Origin_CDN%E5%88%87%E6%8D%A2.zip" target="_blank" rel="noopener">Origin 游戏下载CDN切换</a></li><li><a href="https://www.dogfight360.com/blog/wp-content/uploads/2018/12/UsbEAm-Hosts-Editor-v3.45.zip" target="_blank" rel="noopener">UsbEAm Hosts Editor [多平台hosts修改]</a></li></ul></blockquote><h1 id="修改CDN"><a href="#修改CDN" class="headerlink" title="修改CDN"></a>修改CDN</h1><p>首先，在确保Origin退出的情况下，打开 <code>Origin 游戏下载CDN切换</code> 。</p><div align="center"><img src="/blog/2018/12/31/解决Origin平台下载速度问题/CDN-1.png" alt="主界面"></div><p>打开后，出现上图界面。<br>接下来，选择 <code>Akamai (推荐)</code> ，单击 <code>应用</code> 按钮即可。</p><blockquote><p>原理：Origin平台在国内默认使用Lv3 CDN，导致速度异常缓慢，本工具可以修改Origin根目录下的 <code>EACore.ini</code> 文件，让Origin使用Akamai CDN进行下载，达到提高下载速度的目的。</p></blockquote><p>单击 <code>应用</code> 按钮后，打开Origin平台，进行测试，如下载速度还是缓慢，则可以使用下面的方法。</p><h1 id="修改Hosts"><a href="#修改Hosts" class="headerlink" title="修改Hosts"></a>修改Hosts</h1><p>同样，在确保Origin退出的情况下，打开 <code>UsbEAm Hosts Editor [多平台hosts修改]</code> 。</p><div align="center"><img src="/blog/2018/12/31/解决Origin平台下载速度问题/Hosts-1.png" alt="主界面"></div><p>打开后，出现上图界面。<br>接下来，在窗口任意位置单击 <code>鼠标右键</code> ，出现菜单。</p><div align="center"><img src="/blog/2018/12/31/解决Origin平台下载速度问题/Hosts-2.png" alt="菜单"></div><p>在菜单中选择 <code>Origin - 艺电游戏平台 ---&gt; 游戏下载 [akamai-CDN]</code>。</p><div align="center"><img src="/blog/2018/12/31/解决Origin平台下载速度问题/Hosts-3.png" alt="菜单"></div><p>在主界面，单击 <code>检测延迟</code> ，检测完毕后，选中列表框第一位，单击 <code>应用选中</code> 即可。</p><div align="center"><img src="/blog/2018/12/31/解决Origin平台下载速度问题/Hosts-4.png" alt="菜单"></div><blockquote><p>原理：修改Hosts覆盖掉DNS解析内容，把Origin下载服务器更改到速度较快的服务器。</p></blockquote><p>单击 <code>应用选中</code> 按钮后，即可打开Origin平台，享受高速下载。</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;blockquote&gt;
+&lt;p&gt;由于众所周知的原因，Origin平台在国内的下载速度一直是惨不忍睹的，那么除了使用加速器加速平台外，还有没有什么方法呢？&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;hr&gt;
+&lt;blockquote&gt;
+&lt;p&gt;可能会用到的工具：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;
+      
+    
+    </summary>
+    
+      <category term="Other" scheme="https://imontlaji.github.io/blog/categories/Other/"/>
+    
+    
+      <category term="实用教程" scheme="https://imontlaji.github.io/blog/tags/%E5%AE%9E%E7%94%A8%E6%95%99%E7%A8%8B/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>如何在网页中插入BILIBILI HTML5播放器</title>
+    <link href="https://imontlaji.github.io/blog/2018/12/31/%E5%A6%82%E4%BD%95%E5%9C%A8%E7%BD%91%E9%A1%B5%E4%B8%AD%E6%8F%92%E5%85%A5BILIBILI-HTML5%E6%92%AD%E6%94%BE%E5%99%A8/"/>
+    <id>https://imontlaji.github.io/blog/2018/12/31/如何在网页中插入BILIBILI-HTML5播放器/</id>
+    <published>2018-12-31T04:35:12.000Z</published>
+    <updated>2018-12-31T04:53:22.206Z</updated>
+    
+    <content type="html"><![CDATA[<p>当我们想要在网页中插入视频的时候，第一个想到的肯定是 <code>&lt;video&gt;</code> 标签，然而Video标签却有几个缺点。</p><ul><li>视频资源从本地服务器读取。<ul><li>耗费流量巨大。</li><li>下载速度缓慢。</li></ul></li><li>原生的界面简直丑爆了好吗，要花费大量时间美化。</li></ul><p>众所周知 BILIBILI[下文称”B站”]是一个非常优秀的视频网站。<br>那么，如何将B站的播放器引用到网页里面呢？</p><h4 id="引用B站播放器"><a href="#引用B站播放器" class="headerlink" title="引用B站播放器"></a>引用B站播放器</h4><p>只需要一小段代码：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&lt;iframe id=sbrxp src=&quot;//player.bilibili.com/player.html?aid=33773737&amp;cid=18527724&amp;page=1&quot; scrolling=&quot;no&quot; border=&quot;0&quot; frameborder=&quot;no&quot; framespacing=&quot;0&quot; allowfullscreen=&quot;true&quot; style=&quot;width: 640px; height: 430px; max-width: 100%&quot;&gt; &lt;/iframe&gt;</span><br></pre></td></tr></table></figure></p><p>其中：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">//player.bilibili.com/player.html?aid=33773737&amp;cid=18527724&amp;page=1</span><br></pre></td></tr></table></figure></p><p>将 <code>aid=33773737</code> 等号后面的数字改为你视频的AV号。<br>而cid经过测试，不需要修改也可以正常播放。</p><p>修改完后，将这段代码插入到想要显示播放器的代码处，即可显示B站播放器。</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;当我们想要在网页中插入视频的时候，第一个想到的肯定是 &lt;code&gt;&amp;lt;video&amp;gt;&lt;/code&gt; 标签，然而Video标签却有几个缺点。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;视频资源从本地服务器读取。&lt;ul&gt;
+&lt;li&gt;耗费流量巨大。&lt;/li&gt;
+&lt;li&gt;下载速度缓慢。&lt;/li
+      
+    
+    </summary>
+    
+      <category term="HTML" scheme="https://imontlaji.github.io/blog/categories/HTML/"/>
+    
+    
+      <category term="实用教程" scheme="https://imontlaji.github.io/blog/tags/%E5%AE%9E%E7%94%A8%E6%95%99%E7%A8%8B/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>记事本播放Badapple</title>
+    <link href="https://imontlaji.github.io/blog/2018/12/30/%E8%AE%B0%E4%BA%8B%E6%9C%AC%E6%92%AD%E6%94%BEBadapple/"/>
+    <id>https://imontlaji.github.io/blog/2018/12/30/记事本播放Badapple/</id>
+    <published>2018-12-30T14:04:59.000Z</published>
+    <updated>2018-12-31T07:30:03.803Z</updated>
+    
+    <content type="html"><![CDATA[<p><div align="center"><iframe id="sbrxp" src="//player.bilibili.com/player.html?aid=33773737&cid=18527724&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" style="width: 640px; height: 430px; max-width: 100%"> </iframe></div><br>(效果如上，虽然编写的语言不同，但是效果是一样的。)</p><h4 id="主要思路"><a href="#主要思路" class="headerlink" title="主要思路"></a>主要思路</h4><p>首先逐帧生成Badapple的字符画（当然，你也可以读入视频实时生成字符画，不过这种方法在这里不进行讨论。），保存为外部文件，软件启动时将字符画读入数组中，然后获取记事本的Hwnd，利用SendMessage函数向记事本发送读取的文本，即可达到播放视频的效果。</p><hr><h4 id="文件创建"><a href="#文件创建" class="headerlink" title="文件创建"></a>文件创建</h4><p>我们首先创建个CPP文件，头文件使用以下文件。<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">#include &lt;iostream&gt; </span><br><span class="line">#include &lt;windows.h&gt;</span><br><span class="line">#include &lt;mmsystem.h&gt;</span><br><span class="line">#include &lt;fstream&gt;</span><br><span class="line">#include &lt;string&gt;</span><br></pre></td></tr></table></figure></p><h4 id="声明变量，主函数"><a href="#声明变量，主函数" class="headerlink" title="声明变量，主函数"></a>声明变量，主函数</h4><p>我们开始正式写代码，首先声明变量，主函数。<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line">#include &lt;iostream&gt; </span><br><span class="line">#include &lt;windows.h&gt;</span><br><span class="line">#include &lt;mmsystem.h&gt;</span><br><span class="line">#include &lt;fstream&gt;</span><br><span class="line">#include &lt;string&gt;</span><br><span class="line">using namespace std;</span><br><span class="line">string BAtext[106600] ;//共3553帧</span><br><span class="line">bool readBadApple() ;//声明函数</span><br><span class="line">int main()</span><br><span class="line">&#123; </span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></p><h4 id="读入文件"><a href="#读入文件" class="headerlink" title="读入文件"></a>读入文件</h4><p>声明完后，就需要来读入字符画文件了（字符画文件将在文末提供下载）。<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br></pre></td><td class="code"><pre><span class="line">//读取文本数据 </span><br><span class="line">bool readBadApple()</span><br><span class="line">&#123;</span><br><span class="line">string line;//每一行文本 </span><br><span class="line">    int count; //行数 </span><br><span class="line">    ifstream in(&quot;g:\\Bad apple data.txt&quot;);//读入文本 &quot;g:\\Bad apple data.txt&quot;为文本文件所在路径 </span><br><span class="line">    if (in) //是否读取成功 </span><br><span class="line">    &#123;    </span><br><span class="line">    while(getline(in,line))//循环读取 </span><br><span class="line">        &#123;</span><br><span class="line">        BAtext [count] = line ; )//给数组赋值 </span><br><span class="line">        count++; //行数增加 </span><br><span class="line">        &#125;</span><br><span class="line">   &#125;</span><br><span class="line">   else</span><br><span class="line">   &#123;</span><br><span class="line">       return false;//如读取失败则返回false </span><br><span class="line">&#125;</span><br><span class="line">   </span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></p><p>这样写，就可以读取外部文本的数据了。</p><h4 id="获取HWND"><a href="#获取HWND" class="headerlink" title="获取HWND"></a>获取HWND</h4><p>接下来，我们来获取HWND，如下。<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br></pre></td><td class="code"><pre><span class="line">int main()</span><br><span class="line">&#123; </span><br><span class="line">    SetConsoleTitle(&quot;BadApple Please wait...&quot;);</span><br><span class="line">if(!readBadApple()) return 0;//如果读取失败则直接返回 </span><br><span class="line">reset_hwnd://重置Hwnd </span><br><span class="line">   int iHwnd;</span><br><span class="line">HWND mHwnd;</span><br><span class="line">//-----等待输入 Hwnd </span><br><span class="line">SetConsoleTitle(&quot;BadApple Wait Hwnd...&quot;);</span><br><span class="line">    cout&lt;&lt;&quot;Hwnd：&quot;;</span><br><span class="line">cin&gt;&gt;iHwnd;//输入Hwnd </span><br><span class="line">mHwnd= (HWND)iHwnd;//将整数的Hwnd转换为HWND型 </span><br><span class="line">if(!IsWindow(mHwnd))//判断是否有效窗口句柄 </span><br><span class="line">&#123;</span><br><span class="line">cout&lt;&lt;&quot;Hwnd错误&quot;&lt;&lt;endl; </span><br><span class="line">goto reset_hwnd; //错误则跳转到reset_hwnd </span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></p><h4 id="播放确认"><a href="#播放确认" class="headerlink" title="播放确认"></a>播放确认</h4><p>获取完Hwnd，肯定不能立即开始播放，所以我们来加个输入<code>Y</code>后运行的代码。<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">SetConsoleTitle(&quot;BadApple Wait...&quot;);</span><br><span class="line">//-----等待输入 Y</span><br><span class="line">cout&lt;&lt;&quot;Run [Y]：&quot;;</span><br><span class="line">char input;</span><br><span class="line">cin&gt;&gt;input;</span><br><span class="line">   if(input != &apos;Y&apos;)  return 0;//如果输入的不是Y直接返回</span><br></pre></td></tr></table></figure></p><p>加入这段代码即可实现。</p><h4 id="信息发送"><a href="#信息发送" class="headerlink" title="信息发送"></a>信息发送</h4><p>最后就是播放了，我们要把每行的文本混合为一帧，然后调用SendMessage来实现把文本发送到记事本上。在刚才的基础上加入如下代码。<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br></pre></td><td class="code"><pre><span class="line">   //-----开始运行 </span><br><span class="line">cout&lt;&lt;&quot;开始！&quot;&lt;&lt;endl;//开始输出字符画 </span><br><span class="line">sndPlaySound (&quot;g:\\BadApple.wav&quot;, SND_ASYNC | SND_NODEFAULT);//歌曲文件路径 SND_ASYNC异步 SND_SYNC同步 </span><br><span class="line">string frame;</span><br><span class="line">SetConsoleTitle(&quot;BadApple Playing...&quot;);</span><br><span class="line">for (int a=0; a&lt;3553; a=a+1)//共输出3553帧 </span><br><span class="line">&#123;</span><br><span class="line">frame = &quot;&quot;;</span><br><span class="line">for (int countk=0; countk&lt;30; countk=countk+1)//30行为一帧 所以要把30行的文本组合为一帧 然后输出 </span><br><span class="line">&#123;</span><br><span class="line">frame = frame + BAtext [a*30+countk] + &quot;\n&quot; ;//组合文本 </span><br><span class="line">&#125;</span><br><span class="line">SendMessageA (mHwnd, 12, (WPARAM) 0, LPARAM(temp.c_str()));//发送信息 输出一帧的文本 </span><br><span class="line">Sleep(55);//每帧延时 如果音频快了则把延时调低 慢了反之 </span><br><span class="line">&#125;</span><br><span class="line">//-----结束运行</span><br><span class="line">SetConsoleTitle(&quot;BadApple End&quot;);</span><br><span class="line">cout&lt;&lt;&quot;End&quot;;</span><br><span class="line">return 0;</span><br></pre></td></tr></table></figure></p><p>代码已经写好了，点击运行观看效果吧！</p><h4 id="附1-完整代码："><a href="#附1-完整代码：" class="headerlink" title="附1 完整代码："></a>附1 完整代码：</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br><span class="line">66</span><br><span class="line">67</span><br><span class="line">68</span><br><span class="line">69</span><br><span class="line">70</span><br><span class="line">71</span><br></pre></td><td class="code"><pre><span class="line">#include &lt;iostream&gt; </span><br><span class="line">#include &lt;windows.h&gt;</span><br><span class="line">#include &lt;mmsystem.h&gt;</span><br><span class="line">#include &lt;fstream&gt;</span><br><span class="line">#include &lt;string&gt;</span><br><span class="line">using namespace std;</span><br><span class="line">string BAtext[106600] ;//106590/30=3553</span><br><span class="line">bool readBadApple() ;//定义函数</span><br><span class="line">int main()</span><br><span class="line">&#123; </span><br><span class="line">    SetConsoleTitle(&quot;BadApple Please wait...&quot;);</span><br><span class="line">if(!readBadApple()) return 0;//如果读取失败则直接返回 </span><br><span class="line">reset_hwnd://重置Hwnd </span><br><span class="line">   int iHwnd;</span><br><span class="line">HWND mHwnd;</span><br><span class="line">//-----等待输入 Hwnd </span><br><span class="line">SetConsoleTitle(&quot;BadApple Wait Hwnd...&quot;);</span><br><span class="line">    cout&lt;&lt;&quot;Hwnd：&quot;;</span><br><span class="line">cin&gt;&gt;iHwnd;//输入Hwnd </span><br><span class="line">mHwnd= (HWND)iHwnd;//将整数的Hwnd转换为HWND型 </span><br><span class="line">if(!IsWindow(mHwnd))//判断是否有效窗口句柄 </span><br><span class="line">&#123;</span><br><span class="line">cout&lt;&lt;&quot;Hwnd错误&quot;&lt;&lt;endl; </span><br><span class="line">goto reset_hwnd; //错误则跳转到reset_hwnd </span><br><span class="line">&#125; </span><br><span class="line">SetConsoleTitle(&quot;BadApple Wait...&quot;);</span><br><span class="line">//-----等待输入 Y</span><br><span class="line">cout&lt;&lt;&quot;Run [Y]：&quot;;</span><br><span class="line">char input;</span><br><span class="line">cin&gt;&gt;input;</span><br><span class="line">    if(input != &apos;Y&apos;)  return 0;//如果输入的不是Y直接返回 </span><br><span class="line">    //-----开始运行 </span><br><span class="line">cout&lt;&lt;&quot;开始！&quot;&lt;&lt;endl;//开始输出字符画 </span><br><span class="line">sndPlaySound (&quot;g:\\BadApple.wav&quot;, SND_ASYNC | SND_NODEFAULT);//歌曲文件路径 SND_ASYNC异步 SND_SYNC同步 </span><br><span class="line">string frame;</span><br><span class="line">SetConsoleTitle(&quot;BadApple Playing...&quot;);</span><br><span class="line">for (int a=0; a&lt;3553; a=a+1)//共输出3553帧 </span><br><span class="line">&#123;</span><br><span class="line">frame = &quot;&quot;;</span><br><span class="line">for (int countk=0; countk&lt;30; countk=countk+1)//30行为一帧 所以要把30行的文本组合为一帧 然后输出 </span><br><span class="line">&#123;</span><br><span class="line">frame = frame + BAtext [a*30+countk] + &quot;\n&quot; ;//组合文本 </span><br><span class="line">&#125;</span><br><span class="line">SendMessageA (mHwnd, 12, (WPARAM) 0, LPARAM(temp.c_str()));//发送信息 输出一帧的文本 </span><br><span class="line">Sleep(55);//每帧延时 如果音频快了则把延时调低 慢了反之 </span><br><span class="line">&#125;</span><br><span class="line">//-----结束运行</span><br><span class="line">SetConsoleTitle(&quot;BadApple End&quot;);</span><br><span class="line">cout&lt;&lt;&quot;End&quot;;</span><br><span class="line">return 0; </span><br><span class="line">&#125;</span><br><span class="line">//读取文本数据 </span><br><span class="line">bool readBadApple()</span><br><span class="line">&#123;</span><br><span class="line">string line;//每一行文本 </span><br><span class="line">    int count; //行数 </span><br><span class="line">    ifstream in(&quot;g:\\Bad apple data.txt&quot;);//读入文本 &quot;g:\\Bad apple data.txt&quot;为文本文件所在路径 </span><br><span class="line">    if (in) //是否读取成功 </span><br><span class="line">    &#123;    </span><br><span class="line">    while(getline(in,line))//循环读取 </span><br><span class="line">        &#123;</span><br><span class="line">        BAtext [count] = line ; )//给数组赋值 </span><br><span class="line">        count++; //行数增加 </span><br><span class="line">        &#125;</span><br><span class="line">   &#125;</span><br><span class="line">   else</span><br><span class="line">   &#123;</span><br><span class="line">       return false;//如读取失败则返回false </span><br><span class="line">&#125;</span><br><span class="line">   </span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><h4 id="附2-字符画下载"><a href="#附2-字符画下载" class="headerlink" title="附2 字符画下载"></a>附2 字符画下载</h4><p><a href="https://pan.baidu.com/s/1sUifnSStLxmgVzdR8foLqw" target="_blank" rel="noopener">下载 提取码: 2333</a></p><p>你也可以访问 <a href="https://github.com/Imontlaji/badapple/" target="_blank" rel="noopener">Git库</a> 得到所有文件</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;&lt;div align=&quot;center&quot;&gt;&lt;iframe id=&quot;sbrxp&quot; src=&quot;//player.bilibili.com/player.html?aid=33773737&amp;cid=18527724&amp;page=1&quot; scrolling=&quot;no&quot; border=&quot;0&quot;
+      
+    
+    </summary>
+    
+      <category term="C++" scheme="https://imontlaji.github.io/blog/categories/C/"/>
+    
+    
+      <category term="装逼" scheme="https://imontlaji.github.io/blog/tags/%E8%A3%85%E9%80%BC/"/>
+    
+  </entry>
+  
+</feed>

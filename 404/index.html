@@ -28,6 +28,13 @@
 
 
 
+  
+  
+    
+    
+  <script src="/blog/lib/pace/pace.min.js?v=1.0.2"></script>
+  <link rel="stylesheet" href="/blog/lib/pace/pace-theme-minimal.min.css?v=1.0.2">
+
 
 
 
@@ -78,7 +85,7 @@
     root: '/blog/',
     scheme: 'Mist',
     version: '6.6.0',
-    sidebar: {"position":"left","display":"hide","offset":12,"b2t":false,"scrollpercent":false,"onmobile":false},
+    sidebar: {"position":"left","display":"hide","offset":12,"b2t":false,"scrollpercent":true,"onmobile":false},
     fancybox: false,
     fastclick: false,
     lazyload: false,
@@ -113,6 +120,8 @@
 <meta name="twitter:description" content="&amp;lt;!DOCTYPE html&amp;gt; 404">
 
 
+
+  <link rel="alternate" href="/blog/atom.xml" title="狗滑稽的博客" type="application/atom+xml"/>
 
 
 
@@ -510,6 +519,13 @@
           
 
           
+            <div class="feed-link motion-element">
+              <a href="/blog/atom.xml" rel="alternate">
+                <i class="fa fa-rss"></i>
+                RSS
+              </a>
+            </div>
+          
 
           
             <div class="links-of-author motion-element">
@@ -520,7 +536,9 @@
                     
                   
                   
-                  <a href="tencent://AddContact/?fromId=45&fromSubId=1&subcmd=all&uin=1252343639&website=www.oicqzone.com" title="QQ &rarr; tencent://AddContact/?fromId=45&fromSubId=1&subcmd=all&uin=1252343639&website=www.oicqzone.com" rel="noopener" target="_blank">QQ</a>
+                    
+                  
+                  <a href="tencent://AddContact/?fromId=45&fromSubId=1&subcmd=all&uin=1252343639&website=www.oicqzone.com" title="QQ &rarr; tencent://AddContact/?fromId=45&fromSubId=1&subcmd=all&uin=1252343639&website=www.oicqzone.com" rel="noopener" target="_blank"><i class="fa fa-fw fa-qq"></i>QQ</a>
                 </span>
               
                 <span class="links-of-author-item">
@@ -529,7 +547,9 @@
                     
                   
                   
-                  <a href="https://imontlaji.github.io" title="科学上网 &rarr; https://imontlaji.github.io">科学上网</a>
+                    
+                  
+                  <a href="https://imontlaji.github.io" title="科学上网 &rarr; https://imontlaji.github.io"><i class="fa fa-fw fa-github"></i>科学上网</a>
                 </span>
               
             </div>
@@ -569,7 +589,21 @@
   <span class="author" itemprop="copyrightHolder">我不是辣稽</span>
 
   
+    <span class="post-meta-divider">|</span>
+    <span class="post-meta-item-icon">
+      <i class="fa fa-area-chart"></i>
+    </span>
+    
+    <span title="站点总字数">7k</span>
+  
 
+  
+    <span class="post-meta-divider">|</span>
+    <span class="post-meta-item-icon">
+      <i class="fa fa-coffee"></i>
+    </span>
+    
+    <span title="站点阅读时长">6 分钟</span>
   
 </div>
 
@@ -588,6 +622,24 @@
 
 
         
+<div class="busuanzi-count">
+  <script async src="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+
+  
+    <span class="site-uv" title="总访客量">
+      <i class="fa fa-user"></i>
+      <span class="busuanzi-value" id="busuanzi_value_site_uv"></span>
+    </span>
+  
+
+  
+    <span class="site-pv" title="总访问量">
+      <i class="fa fa-eye"></i>
+      <span class="busuanzi-value" id="busuanzi_value_site_pv"></span>
+    </span>
+  
+</div>
+
 
 
 
@@ -603,6 +655,8 @@
     
       <div class="back-to-top">
         <i class="fa fa-arrow-up"></i>
+        
+          <span id="scrollpercent"><span>0</span>%</span>
         
       </div>
     
