@@ -1952,7 +1952,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #0dff4e;
+  background: #57ff2a;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -2973,4 +2973,16 @@ hr {
   padding: 25px;
   -webkit-box-shadow: 0 0 6px rgba(202,203,203,0.5);
   -moz-box-shadow: 0 0 6px rgba(202,203,204,0.5);
+}
+body {
+  background: url("https://api.ixiaowai.cn/api/api.php");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+.main-inner {
+  margin-top: 60px;
+  padding: 60px 60px 60px 60px;
+  background: rgba(255,255,255,0.85);
+  min-height: 500px;
 }
