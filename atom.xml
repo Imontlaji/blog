@@ -6,7 +6,7 @@
   <link href="/blog/atom.xml" rel="self"/>
   
   <link href="https://imontlaji.github.io/blog/"/>
-  <updated>2018-12-31T10:59:33.019Z</updated>
+  <updated>2018-12-31T12:17:34.700Z</updated>
   <id>https://imontlaji.github.io/blog/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="https://imontlaji.github.io/blog/2018/12/31/%E8%A7%A3%E5%86%B3%E8%BF%85%E9%9B%B7%E4%B8%8B%E8%BD%BD%E5%87%BA%E7%8E%B0-%E6%95%8F%E6%84%9F%E8%B5%84%E6%BA%90-%E7%9A%84%E9%97%AE%E9%A2%98/"/>
     <id>https://imontlaji.github.io/blog/2018/12/31/解决迅雷下载出现-敏感资源-的问题/</id>
     <published>2018-12-31T10:23:34.000Z</published>
-    <updated>2018-12-31T10:59:33.019Z</updated>
+    <updated>2018-12-31T12:17:34.700Z</updated>
     
     <content type="html"><![CDATA[<blockquote><p>使用高版本的迅雷下载 <del>小电影</del> 的时候，经常会出现 <code>敏感资源</code> 或者 <code>应版权方要求</code>。而种子洗白的方法虽然可用，但是经常速度为0。那么本篇文章将会介绍一个新的方法，使迅雷能够正常下载出现以上两种提示的文件。</p></blockquote><h1 id="开始操作"><a href="#开始操作" class="headerlink" title="开始操作"></a>开始操作</h1><blockquote><p>可能用到的文件：</p><ul><li><a href="https://pan.baidu.com/s/1i7jEOXR" target="_blank" rel="noopener">下载 提取码：e489</a></li></ul></blockquote><p>其实这个方法，就是使用老版本的 <code>迅雷5</code> 。</p><p>下载完后，按照提示安装，之后打开即可。</p><blockquote><p>迅雷5所拥有的优点：</p><ul><li>和高版本的迅雷速度相比，几乎没什么差别。</li><li>轻量化，无广告。</li><li>没有恶心人的会员加速制度。</li></ul></blockquote><div align="center"><img src="/blog/2018/12/31/解决迅雷下载出现-敏感资源-的问题/Thunder-1.png" alt="主界面"></div><p>如图， <code>迅雷5</code> 可轻松下载敏感资源并保持了较高的速度(2.2Mb/s)。</p><h1 id="下载磁力链接文件"><a href="#下载磁力链接文件" class="headerlink" title="下载磁力链接文件"></a>下载磁力链接文件</h1><p><code>迅雷5</code> 虽好，但是它却有一个缺点：不支持磁力链接。</p><p>其实这个问题非常好解决，只要访问 <a href="http://www.torrent.org.cn/" target="_blank" rel="noopener">这个网站</a> 即可将磁力链接转换为种子文件，让 <code>迅雷5</code> 也能够下载。</p>]]></content>
     
