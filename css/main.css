@@ -1962,7 +1962,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #ff42f9;
+  background: #771187;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -3033,6 +3033,25 @@ code {
   -webkit-box-shadow: 0 0 20px #333;
   -moz-box-shadow: 0 0 20px #333;
 }
+.posts-expand .post-tags a,
+.brand,
+.brand:hover,
+.theme-link,
+.footer,
+.fa-user {
+  color: #d67e7d;
+}
+.menu .menu-item a,
+.menu .menu-item span.exturl {
+  color: #d67e7d;
+}
+hr {
+  background-image: none;
+}
+.logo-line-before i,
+.logo-line-after i {
+  background-color: #d67e7d;
+}
 .copy-btn {
   border-radius: 0px !important;
   background-color: #222 !important;
@@ -3042,6 +3061,15 @@ code {
 }
 .copy-btn:hover {
   border: 1px solid #d67e7d !important;
+}
+blockquote {
+  border-left: 4px solid #d67e7d !important;
+}
+.sidebar-toggle {
+  background: #d67e7d !important;
+}
+.back-to-top {
+  background: #d67e7d !important;
 }
 ::selection {
   background: #d67e7d;
