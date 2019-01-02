@@ -306,7 +306,7 @@
         
         
           
-          <li class="menu-item menu-item-commonweal">
+          <li class="menu-item menu-item-科学上网">
 
     
     
@@ -316,7 +316,7 @@
 
     
 
-    <a href="/blog/404/" rel="section"><i class="menu-item-icon fa fa-fw fa-heartbeat"></i> <br>公益 404</a>
+    <a href="https://imontlaji.github.io" rel="section"><i class="menu-item-icon fa fa-fw fa-github"></i> <br>科学上网</a>
 
   </li>
 
@@ -623,7 +623,7 @@
                   
                     
                   
-                  <a href="https://imontlaji.github.io" title="科学上网 &rarr; https://imontlaji.github.io"><i class="fa fa-fw fa-github"></i>科学上网</a>
+                  <a href="https://space.bilibili.com/100323697" title="BiliBili &rarr; https://space.bilibili.com/100323697" rel="noopener" target="_blank"><i class="fa fa-fw fa-youtube-play"></i>BiliBili</a>
                 </span>
               
                 <span class="links-of-author-item">
@@ -634,7 +634,18 @@
                   
                     
                   
-                  <a href="https://space.bilibili.com/100323697" title="BiliBili &rarr; https://space.bilibili.com/100323697" rel="noopener" target="_blank"><i class="fa fa-fw fa-youtube"></i>BiliBili</a>
+                  <a href="https://github.com/imontlaji" title="GitHub &rarr; https://github.com/imontlaji" rel="noopener" target="_blank"><i class="fa fa-fw fa-github"></i>GitHub</a>
+                </span>
+              
+                <span class="links-of-author-item">
+                  
+                  
+                    
+                  
+                  
+                    
+                  
+                  <a href="mailto:y1252343639@outlook.com" title="E-Mail &rarr; mailto:y1252343639@outlook.com" rel="noopener" target="_blank"><i class="fa fa-fw fa-envelope"></i>E-Mail</a>
                 </span>
               
             </div>
@@ -693,20 +704,14 @@
 </div>
 
 
-  <div class="powered-by">由 <a href="https://hexo.io" class="theme-link" rel="noopener" target="_blank">Hexo</a> 强力驱动 v3.8.0</div>
-
-
-
-  <span class="post-meta-divider">|</span>
-
-
-
-  <div class="theme-info">主题 – <a href="https://theme-next.org" class="theme-link" rel="noopener" target="_blank">NexT.Mist</a> v6.6.0</div>
 
 
 
 
-<span class="post-meta-divider">|</span>
+
+
+
+<!--<span class="post-meta-divider">|</span>-->
 
 <span id="sitetime"></span>
 <script language="javascript">
@@ -739,7 +744,11 @@
         var diffHours = Math.floor((diff-(diffDays)*days)/hours);
         var diffMinutes = Math.floor((diff-(diffDays)*days-diffHours*hours)/minutes);
         var diffSeconds = Math.floor((diff-(diffDays)*days-diffHours*hours-diffMinutes*minutes)/seconds);
-        document.getElementById("sitetime").innerHTML="网站在灾难中运行了:"+diffDays+" 天 "+diffHours+" 小时 "+diffMinutes+" 分钟 "+diffSeconds+" 秒";
+        var zeroHours,zeroMinutes,zeroSeconds;
+        if (diffHours < 10) {zeroHours="0";} else {zeroHours="";}
+        if (diffMinutes < 10) {zeroMinutes="0";} else {zeroMinutes="";}
+        if (diffSeconds < 10) {zeroSeconds="0";} else {zeroSeconds="";}
+        document.getElementById("sitetime").innerHTML="网站在各种灾难中居然运行了:"+diffDays+" 天 "+zeroHours+diffHours+" 小时 "+zeroMinutes+diffMinutes+" 分钟 "+zeroSeconds+diffSeconds+" 秒";
     }
     siteTime();
 </script>
