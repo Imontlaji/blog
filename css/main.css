@@ -1962,7 +1962,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #334eff;
+  background: #6144ff;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -2979,6 +2979,7 @@ hr {
 }
 body {
   background: url("https://api.ixiaowai.cn/api/api.php");
+  background-position-x: 50%;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
