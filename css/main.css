@@ -1764,16 +1764,6 @@ pre .javascript .function {
 .rtl.post-title {
   font-family: UKIJ Ekran;
 }
-.reading-progress-bar {
-  position: fixed;
-  top: 0;
-  left: 0;
-  z-index: 9999;
-  display: block;
-  width: 0;
-  height: 2px;
-  background: #D67E7D;
-}
 .sidebar {
   position: fixed;
   right: 0;
@@ -1962,7 +1952,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #ff61ff;
+  background: #5bff38;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -2978,11 +2968,14 @@ hr {
   }
 }
 body {
-  background: url("https://api.ixiaowai.cn/api/api.php");
+  background: url("https://www.imontlaji.tk/img/background2.png");
   background-position-x: 50%;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
+}
+.page-post-detail .sidebar-toggle-line {
+  background: #fff !important;
 }
 .main-inner {
   margin-top: 60px;
