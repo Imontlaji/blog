@@ -6,7 +6,7 @@
   <link href="/blog/atom.xml" rel="self"/>
   
   <link href="https://imontlaji.github.io/blog/"/>
-  <updated>2019-01-13T14:07:16.672Z</updated>
+  <updated>2019-01-17T08:56:53.184Z</updated>
   <id>https://imontlaji.github.io/blog/</id>
   
   <author>
@@ -17,11 +17,37 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>使用油猴脚本加FDM实现百度网盘高速下载</title>
+    <link href="https://imontlaji.github.io/blog/2019/01/17/%E4%BD%BF%E7%94%A8%E6%B2%B9%E7%8C%B4%E8%84%9A%E6%9C%AC%E5%8A%A0FDM%E5%AE%9E%E7%8E%B0%E7%99%BE%E5%BA%A6%E7%BD%91%E7%9B%98%E9%AB%98%E9%80%9F%E4%B8%8B%E8%BD%BD/"/>
+    <id>https://imontlaji.github.io/blog/2019/01/17/使用油猴脚本加FDM实现百度网盘高速下载/</id>
+    <published>2019-01-17T07:48:50.000Z</published>
+    <updated>2019-01-17T08:56:53.184Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p>近日，百度网盘进行了一次更新，使得PanDownload等多个软件失效，下载速度又回到了蛋疼的10Kb/s。</p><p>那么现在，想要从百度网盘高速下载，除了开超级会员，还有一种野路子：使用<code>Tampermonkey [油猴] + FDM</code>来破解百度网盘的下载速度限制。</p><h1 id="文件下载"><a href="#文件下载" class="headerlink" title="文件下载"></a>文件下载</h1><blockquote><p>可能会用到的文件：</p><ul><li>Tampermonkey [油猴] 下载 [二选一]<ul><li><a href="https://tampermonkey.net/" target="_blank" rel="noopener">官网下载</a></li><li><a href="https://www.crx4chrome.com/go.php?d=5637&amp;i=&amp;p=131558&amp;s=0&amp;l=https%3A%2F%2Ff.crx4chrome.com%2Fcrx.php%3Fi%3Ddhdgffkkebhmkfjojejmpbldmpobfkfo%26v%3D4.7.54" target="_blank" rel="noopener">Chrome分流下载</a></li></ul></li><li>FDM 下载<ul><li><a href="https://www.freedownloadmanager.org/" target="_blank" rel="noopener">官网下载</a></li></ul></li></ul></blockquote><p><br></p><h1 id="安装油猴及使用脚本"><a href="#安装油猴及使用脚本" class="headerlink" title="安装油猴及使用脚本"></a>安装油猴及使用脚本</h1><blockquote><p>Tampermonkey 是一款免费的浏览器扩展和最为流行的用户脚本管理器，它适用于 Chrome, Microsoft Edge, Safari, Opera Next, 和 Firefox。<br>虽然有些受支持的浏览器拥有原生的用户脚本支持，但 Tampermonkey 将在您的用户脚本管理方面提供更多的便利。 它提供了诸如便捷脚本安装、自动更新检查、标签中的脚本运行状况速览、内置的编辑器等众多功能， 同时Tampermonkey还有可能正常运行原本并不兼容的脚本。</p></blockquote><p>安装好油猴后，应该能在浏览器右上角找到这个图标。</p><div align="center"><img src="/blog/2019/01/17/使用油猴脚本加FDM实现百度网盘高速下载/TM-1.png" alt="图片"></div><p>能找到的话，就说明安装成功了。<br>接着我们来安装脚本，油猴脚本安装十分简单，只需打开<a href="https://greasyfork.org/zh-CN/scripts/39776-%E7%99%BE%E5%BA%A6%E7%BD%91%E7%9B%98%E7%9B%B4%E6%8E%A5%E4%B8%8B%E8%BD%BD%E5%8A%A9%E6%89%8B%E4%BF%AE%E6%94%B9%E7%89%88" target="_blank" rel="noopener">这个网站</a>单击安装此脚本即可。</p><div align="center"><img src="/blog/2019/01/17/使用油猴脚本加FDM实现百度网盘高速下载/TM-2.png" alt="图片"></div><br>然后等个几秒钟，打开<a href="https://pan.baidu.com/s/1gSYqzLbR4XHmxNxDc4WfxA" target="_blank" rel="noopener">百度云分享页面</a>，查看是否有下载助手按钮。<br><div align="center"><img src="/blog/2019/01/17/使用油猴脚本加FDM实现百度网盘高速下载/TM-3.png" alt="图片"></div><br>如果有，那你就已经成功安装了油猴及脚本了。<br><br># 安装与使用FDM<br>&gt;Free Download Manager 是一款免费的下载工具，而且速度能与IDM媲美，还能支持种子、磁力文件的下载。简直比迅雷不知道高到那里去了。<br><br>安装完FDM后，将它打开。<br><div align="center"><img src="/blog/2019/01/17/使用油猴脚本加FDM实现百度网盘高速下载/FDM-1.png" alt="图片"></div><p>在百度云分享页面，将鼠标移动到下载助手按钮上，选择获取下载链接。</p><div align="center"><img src="/blog/2019/01/17/使用油猴脚本加FDM实现百度网盘高速下载/FDM-2.png" alt="图片"></div><p>在弹出来的窗口中，右键链接，复制。</p><div align="center"><img src="/blog/2019/01/17/使用油猴脚本加FDM实现百度网盘高速下载/FDM-3.png" alt="图片"></div><p>单击FDM窗口中单击左上角的+图标。</p><div align="center"><img src="/blog/2019/01/17/使用油猴脚本加FDM实现百度网盘高速下载/FDM-4.png" alt="图片"></div><p>将刚才复制的链接粘贴进去。</p><div align="center"><img src="/blog/2019/01/17/使用油猴脚本加FDM实现百度网盘高速下载/FDM-5.png" alt="图片"></div><p>即可高速下载百度网盘文件。</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h1 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h1&gt;&lt;p&gt;近日，百度网盘进行了一次更新，使得PanDownload等多个软件失效，下载速度又回到了蛋疼的10Kb/s。&lt;/p&gt;
+&lt;p&gt;那么现在，想要从
+      
+    
+    </summary>
+    
+      <category term="Other" scheme="https://imontlaji.github.io/blog/categories/Other/"/>
+    
+    
+      <category term="实用教程" scheme="https://imontlaji.github.io/blog/tags/%E5%AE%9E%E7%94%A8%E6%95%99%E7%A8%8B/"/>
+    
+  </entry>
+  
+  <entry>
     <title>使用SwitchyOmega对国内网站进行过滤</title>
     <link href="https://imontlaji.github.io/blog/2019/01/13/%E4%BD%BF%E7%94%A8SwitchyOmega%E5%AF%B9%E5%9B%BD%E5%86%85%E7%BD%91%E7%AB%99%E8%BF%9B%E8%A1%8C%E8%BF%87%E6%BB%A4/"/>
     <id>https://imontlaji.github.io/blog/2019/01/13/使用SwitchyOmega对国内网站进行过滤/</id>
     <published>2019-01-13T08:54:52.000Z</published>
-    <updated>2019-01-13T14:07:16.672Z</updated>
+    <updated>2019-01-13T14:08:52.308Z</updated>
     
     <content type="html"><![CDATA[<h1 id="文件下载"><a href="#文件下载" class="headerlink" title="文件下载"></a>文件下载</h1><blockquote><p>可能会用到的文件：</p><ul><li><a href="https://chrome.google.com/webstore/detail/proxy-switchyomega/padekgcemlokbadohgkifijomclgjgif" target="_blank" rel="noopener">SwitchyOmega [Chrome 下载]</a></li><li><a href="https://addons.mozilla.org/en-US/firefox/addon/switchyomega/" target="_blank" rel="noopener">SwitchyOmega [FireFox 下载]</a></li><li>如无法正常打开，请使用下面的链接。</li><li><a href="https://github.com/FelisCatus/SwitchyOmega/releases" target="_blank" rel="noopener">SwitchyOmega [FireFox &amp; Chrome 离线文件]</a><ul><li>Chrome内核浏览器用户请下载后缀为.crx的文件。</li><li>FireFox内核浏览器用户请下载后缀为.xpi的文件。</li></ul></li><li><a href="OmegaOptions.bak">SwitchyOmega 配置文件下载</a></li></ul></blockquote><h1 id="设置配置"><a href="#设置配置" class="headerlink" title="设置配置"></a>设置配置</h1><p>以Chrome浏览器为例:<br>安装完成后，应该能在浏览器右上角找到这个图标。</p><div align="center"><img src="/blog/2019/01/13/使用SwitchyOmega对国内网站进行过滤/OG-1.png" alt="图片"></div><br>点击这个图标，然后再单击<code>选项</code>。<br><div align="center"><img src="/blog/2019/01/13/使用SwitchyOmega对国内网站进行过滤/OG-2.png" alt="图片"></div><br>然后就进入到了设置界面，在右侧导航栏中选择<code>导入/导出</code>。<br><div align="center"><img src="/blog/2019/01/13/使用SwitchyOmega对国内网站进行过滤/OG-3.png" alt="图片"></div><br>单击<code>从备份文件恢复</code>，选择下载的 <a href="OmegaOptions.bak">配置文件</a>，完成后单击右侧导航栏的<code>应用选项</code>。<br><div align="center"><img src="/blog/2019/01/13/使用SwitchyOmega对国内网站进行过滤/OG-4.png" alt="图片"></div><br>如果在科学上网中改变了端口号，那请在右侧导航栏中选择<code>Proxy</code>，修改代理端口，完成后单击右侧导航栏的<code>应用选项</code>。<br><div align="center"><img src="/blog/2019/01/13/使用SwitchyOmega对国内网站进行过滤/OG-5.png" alt="图片"></div><h1 id="配置测试"><a href="#配置测试" class="headerlink" title="配置测试"></a>配置测试</h1><p>完成后，打开科学上网，然后依次打开以下两个网站测试。</p><ul><li><a href="https://www.ip.cn/" target="_blank" rel="noopener">点击这里测试1</a></li><li><a href="https://www.facebook.com/" target="_blank" rel="noopener">点击这里测试2</a></li></ul><p>如果测试1网站显示为中国IP，且测试2网站能正常打开，说明SwitchyOmega设置已经成功了。<br><del>如果不行，那你就自杀吧。</del></p><p>需要帮助？<a href="tencent://AddContact/?fromId=45&amp;fromSubId=1&amp;subcmd=all&amp;uin=1252343639&amp;website=www.oicqzone.com" target="_blank" rel="noopener">点击这里来联系我</a></p>]]></content>
     
