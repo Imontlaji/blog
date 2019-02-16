@@ -6,7 +6,7 @@
   <link href="/blog/atom.xml" rel="self"/>
   
   <link href="https://imontlaji.github.io/blog/"/>
-  <updated>2019-02-16T04:54:39.920Z</updated>
+  <updated>2019-02-16T04:56:34.397Z</updated>
   <id>https://imontlaji.github.io/blog/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="https://imontlaji.github.io/blog/2019/02/16/%E6%BB%91%E7%A8%BD%E4%BA%91%E4%BD%BF%E7%94%A8%E6%95%99%E7%A8%8B/"/>
     <id>https://imontlaji.github.io/blog/2019/02/16/滑稽云使用教程/</id>
     <published>2019-02-16T03:43:08.000Z</published>
-    <updated>2019-02-16T04:54:39.920Z</updated>
+    <updated>2019-02-16T04:56:34.397Z</updated>
     
     <content type="html"><![CDATA[<blockquote><p>善用右下角的菜单栏快速定位文章位置。</p></blockquote><h1 id="Windows使用"><a href="#Windows使用" class="headerlink" title="Windows使用"></a>Windows使用</h1><p>首先先注册个用户(废话)，然后在用户中心往下拉，点击这里进行下载。</p><p><div align="center"><img src="/blog/2019/02/16/滑稽云使用教程/1.png" alt="图片"></div><br>解压后，双击ShadowsocksR.exe打开，打开后是这个鸟样：</p><p><div align="center"><img src="/blog/2019/02/16/滑稽云使用教程/2.png" alt="图片"></div><br>直接点击确定。回到滑稽云，在右侧的列表中找到节点列表，选择一个你想要用的节点，点击这里。(付费用户强烈不推荐使用订阅，因为SSR默认是多节点同时使用的，会导致游戏节点压力加大，如要使用订阅，请在SSR任务栏右键菜单中关闭负载均衡，然后在服务器选项中选择非游戏节点)</p><p><div align="center"><img src="/blog/2019/02/16/滑稽云使用教程/3.png" alt="图片"></div><br>在弹出来的窗口中拉到最底下，右键任务栏小飞机，服务器—》从屏幕二维码导入……，出现以下界面就成功了。如果有FreeSSR-public开头的节点要将其删除，点击确定即可。</p><p><div align="center"><img src="/blog/2019/02/16/滑稽云使用教程/4.png" alt="图片"></div><br>然后右键任务栏小飞机，系统代理模式—》全局模式，代理规则—》绕过局域网和大陆。打开浏览器，访问Google测试，如果能访问则设置成功。<br><a href="#注意事项" class="headerlink" title="注意事项" style="font-size: 20px;">注意事项</a></p><h1 id="Android使用"><a href="#Android使用" class="headerlink" title="Android使用"></a>Android使用</h1><p>稍后添加。</p><h1 id="游戏加速服务"><a href="#游戏加速服务" class="headerlink" title="游戏加速服务"></a>游戏加速服务</h1><p>稍后添加。</p><h1 id="注意事项"><a href="#注意事项" class="headerlink" title="注意事项"></a>注意事项</h1><p>1.付费用户强烈不推荐使用订阅，因为SSR默认是多节点负载均衡，会导致游戏节点压力加大，造成没有必要的流量浪费，如要使用订阅，请在SSR任务栏右键菜单中关闭负载均衡，然后在服务器选项中选择非游戏节点。</p>]]></content>
     
