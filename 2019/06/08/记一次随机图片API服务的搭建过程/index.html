@@ -107,18 +107,22 @@
 
 
 
-  <meta name="description" content="最近实在是有点闲，恰好之前写的Random Img的API被GFW干了，所以就想着来重写一个。废话不多说，进入正题！">
+  <meta name="description" content="废话最近实在是有点闲，恰好之前写的随机图片的API被GFW干了，所以就想着来重写一个。废话不多说，进入正题！  主要思路：利用PHP读取带有图片URL的文本文件，然后随机挑选其中一行，重写浏览器的URL为随机选中的图片文件的URL。  创建网站首先在宝塔面板里新建一个网站。然后在网站目录删除生成的index.html，新建一个index.php文件。 编写index.php接下来就开始编写代码了，">
 <meta name="keywords" content="实用教程">
 <meta property="og:type" content="article">
 <meta property="og:title" content="记一次随机图片API服务的搭建过程">
 <meta property="og:url" content="https://imontlaji.github.io/blog/2019/06/08/记一次随机图片API服务的搭建过程/index.html">
 <meta property="og:site_name" content="狗滑稽的博客">
-<meta property="og:description" content="最近实在是有点闲，恰好之前写的Random Img的API被GFW干了，所以就想着来重写一个。废话不多说，进入正题！">
+<meta property="og:description" content="废话最近实在是有点闲，恰好之前写的随机图片的API被GFW干了，所以就想着来重写一个。废话不多说，进入正题！  主要思路：利用PHP读取带有图片URL的文本文件，然后随机挑选其中一行，重写浏览器的URL为随机选中的图片文件的URL。  创建网站首先在宝塔面板里新建一个网站。然后在网站目录删除生成的index.html，新建一个index.php文件。 编写index.php接下来就开始编写代码了，">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:updated_time" content="2019-06-09T06:36:33.272Z">
+<meta property="og:image" content="https://cdn.imontlaji.xyz/img/Random_Img_Api/20190609144653.png">
+<meta property="og:image" content="https://cdn.imontlaji.xyz/img/Random_Img_Api/20190609144903.png">
+<meta property="og:image" content="https://cdn.imontlaji.xyz/img/Random_Img_Api/20190609145034.png">
+<meta property="og:updated_time" content="2019-06-09T08:55:43.681Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="记一次随机图片API服务的搭建过程">
-<meta name="twitter:description" content="最近实在是有点闲，恰好之前写的Random Img的API被GFW干了，所以就想着来重写一个。废话不多说，进入正题！">
+<meta name="twitter:description" content="废话最近实在是有点闲，恰好之前写的随机图片的API被GFW干了，所以就想着来重写一个。废话不多说，进入正题！  主要思路：利用PHP读取带有图片URL的文本文件，然后随机挑选其中一行，重写浏览器的URL为随机选中的图片文件的URL。  创建网站首先在宝塔面板里新建一个网站。然后在网站目录删除生成的index.html，新建一个index.php文件。 编写index.php接下来就开始编写代码了，">
+<meta name="twitter:image" content="https://cdn.imontlaji.xyz/img/Random_Img_Api/20190609144653.png">
 
 
 
@@ -459,7 +463,7 @@
                 
                   <span class="post-meta-item-text">更新于</span>
                 
-                <time title="修改时间：2019-06-09 14:36:33" itemprop="dateModified" datetime="2019-06-09T14:36:33+08:00">2019-06-09</time>
+                <time title="修改时间：2019-06-09 16:55:43" itemprop="dateModified" datetime="2019-06-09T16:55:43+08:00">2019-06-09</time>
               
             
           </span>
@@ -511,7 +515,7 @@
                 
                   <span class="post-meta-item-text">本文字数：</span>
                 
-                <span title="本文字数">59</span>
+                <span title="本文字数">1.1k</span>
               
 
               
@@ -545,7 +549,15 @@
       
 
       
-        <p>最近实在是有点闲，恰好之前写的Random Img的API被GFW干了，所以就想着来重写一个。废话不多说，进入正题！</p>
+        <h1 id="废话"><a href="#废话" class="headerlink" title="废话"></a>废话</h1><p>最近实在是有点闲，恰好之前写的随机图片的API被GFW干了，所以就想着来重写一个。废话不多说，进入正题！</p>
+<blockquote>
+<p>主要思路：利用PHP读取带有图片URL的文本文件，然后随机挑选其中一行，重写浏览器的URL为随机选中的图片文件的URL。</p>
+</blockquote>
+<h1 id="创建网站"><a href="#创建网站" class="headerlink" title="创建网站"></a>创建网站</h1><p>首先在宝塔面板里新建一个网站。<br><img src="https://cdn.imontlaji.xyz/img/Random_Img_Api/20190609144653.png" alt="图片"><br>然后在网站目录删除生成的index.html，新建一个index.php文件。<br><img src="https://cdn.imontlaji.xyz/img/Random_Img_Api/20190609144903.png" alt="图片"><br><img src="https://cdn.imontlaji.xyz/img/Random_Img_Api/20190609145034.png" alt="图片"></p>
+<h1 id="编写index-php"><a href="#编写index-php" class="headerlink" title="编写index.php"></a>编写index.php</h1><p>接下来就开始编写代码了，我这里采用的是GET的方式来传递参数，来确定随机返回图片的分类。<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br></pre></td><td class="code"><pre><span class="line">&lt;?php </span><br><span class="line">if(isset($_GET[&quot;categories&quot;])) &#123;	//是否有参数</span><br><span class="line">  $file_Name = $_GET[&quot;categories&quot;];	//获取参数</span><br><span class="line">&#125; else &#123;</span><br><span class="line">  $file_Name = &quot;Asuka&quot;;			//无参数时的文件名</span><br><span class="line">&#125;</span><br><span class="line">$file_Path = &quot;list/$file_Name.txt&quot;;	//文件路径</span><br><span class="line">//echo $file_Path;</span><br><span class="line">if(file_exists(!$file_Path)) &#123;		/判断文件是否存在</span><br><span class="line">  http_response_code(404);		//返回404状态码</span><br><span class="line">  exit();</span><br><span class="line">&#125;</span><br><span class="line">$file_Arr = file($file_Path);		//读入文件</span><br><span class="line">$line = count($file_Arr);		//取文件行数</span><br><span class="line">$rand_Line = mt_rand(0, $line - 1);	//生成随机数</span><br><span class="line">$image_Url = $file_Arr[$rand_Line];	//根据行数取文本</span><br><span class="line">header(&quot;Location: $image_Url&quot;);		//跳转</span><br><span class="line">?&gt;</span><br></pre></td></tr></table></figure></p>
+<h1 id="目录管理"><a href="#目录管理" class="headerlink" title="目录管理"></a>目录管理</h1><p>记得要在网站的根目录里创建一个<code>list</code>目录，然后将带有图片URL的文本文件丢进里面，使用时<code>categories</code>参数要等于<code>list</code>目录里的文本文件去掉后缀的全名。</p>
+<h1 id="图床"><a href="#图床" class="headerlink" title="图床"></a>图床</h1><p>然后图床的话，我推荐使用阿里云的OSS，套上Cloudflared的CDN，访问速度还不错，关键是价格还不贵（这才是重点）。图床管理工具可以试试<a href="https://github.com/Molunerfinn/PicGo/releases" target="_blank" rel="noopener">PicGo</a>，也是非常好用的说。</p>
+<h1 id="效果"><a href="#效果" class="headerlink" title="效果"></a>效果</h1><p><a href="https://api.huajicloud.xyz/index.php" target="_blank" rel="noopener">随机图片API 无参数</a><br><a href="https://api.huajicloud.xyz/index.php?categories=Sight" target="_blank" rel="noopener">随机图片API 参数：Sight</a><br><a href="https://api.huajicloud.xyz/index.php?categories=Asuka" target="_blank" rel="noopener">随机图片API 参数：Asuka</a><br><a href="https://api.huajicloud.xyz/index.php?categories=Manga" target="_blank" rel="noopener">随机图片API 参数：Manga</a></p>
 
       
     </div>
@@ -673,8 +685,17 @@
       
 
       
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap">
+            文章目录
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview-wrap">
+            站点概览
+          </li>
+        </ul>
+      
 
-      <div class="site-overview-wrap sidebar-panel sidebar-panel-active">
+      <div class="site-overview-wrap sidebar-panel">
         <div class="site-overview">
           <div class="site-author motion-element" itemprop="author" itemscope="" itemtype="http://schema.org/Person">
             
@@ -814,6 +835,23 @@
       </div>
 
       
+      <!--noindex-->
+        <div class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+            
+            
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#废话"><span class="nav-text">废话</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#创建网站"><span class="nav-text">创建网站</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#编写index-php"><span class="nav-text">编写index.php</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#目录管理"><span class="nav-text">目录管理</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#图床"><span class="nav-text">图床</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#效果"><span class="nav-text">效果</span></a></li></ol></div>
+            
+
+          </div>
+        </div>
+      <!--/noindex-->
+      
 
       
 
@@ -839,7 +877,7 @@
       <i class="fa fa-area-chart"></i>
     </span>
     
-    <span title="站点总字数">10k</span>
+    <span title="站点总字数">11k</span>
   
 
   
@@ -848,7 +886,7 @@
       <i class="fa fa-coffee"></i>
     </span>
     
-    <span title="站点阅读时长">9 分钟</span>
+    <span title="站点阅读时长">10 分钟</span>
   
 </div>
 

@@ -6,7 +6,7 @@
   <link href="/blog/atom.xml" rel="self"/>
   
   <link href="https://imontlaji.github.io/blog/"/>
-  <updated>2019-06-09T06:38:30.175Z</updated>
+  <updated>2019-06-09T08:38:36.303Z</updated>
   <id>https://imontlaji.github.io/blog/</id>
   
   <author>
@@ -21,9 +21,9 @@
     <link href="https://imontlaji.github.io/blog/2019/06/09/%E6%BB%91%E7%A8%BD%E4%BA%91%E6%9C%80%E6%96%B0%E5%85%AC%E5%91%8A%E5%8F%8A%E4%B8%BB%E7%AB%99%E5%9C%B0%E5%9D%80/"/>
     <id>https://imontlaji.github.io/blog/2019/06/09/滑稽云最新公告及主站地址/</id>
     <published>2019-06-09T06:06:40.000Z</published>
-    <updated>2019-06-09T06:38:30.175Z</updated>
+    <updated>2019-06-09T08:38:36.303Z</updated>
     
-    <content type="html"><![CDATA[<h1 id="滑稽云主站地址"><a href="#滑稽云主站地址" class="headerlink" title="滑稽云主站地址"></a>滑稽云主站地址</h1><p>目前主站可通过三个域名访问：<br><a href="https://www.huajicloud.xyz" target="_blank" rel="noopener">滑稽云域名1</a><br><a href="https://www.imontlaji.xyz" target="_blank" rel="noopener">滑稽云域名2</a><br><a href="https://www.xhhuangse.xyz" target="_blank" rel="noopener">滑稽云域名3</a></p><h1 id="公告"><a href="#公告" class="headerlink" title="公告"></a>公告</h1><p>滑稽云目前使用了Cloudflare提供的解析服务及CDN服务，部分地区可能无法访问。出现这种情况，可以尝试更换DNS服务器，然后清除浏览器缓存及DNS缓存，再尝试打开网站。</p><p>如仍然无法打开，可联系QQ1252343639。</p>]]></content>
+    <content type="html"><![CDATA[<h1 id="滑稽云主站地址"><a href="#滑稽云主站地址" class="headerlink" title="滑稽云主站地址"></a>滑稽云主站地址</h1><p>目前主站可通过三个域名访问：<br><a href="https://www.huajicloud.xyz" target="_blank" rel="noopener">滑稽云域名1</a><br><a href="https://www.imontlaji.xyz" target="_blank" rel="noopener">滑稽云域名2</a><br><a href="https://www.xhhuangse.xyz" target="_blank" rel="noopener">滑稽云域名3</a></p><h1 id="公告"><a href="#公告" class="headerlink" title="公告"></a>公告</h1><p>　　滑稽云目前使用了Cloudflare提供的解析服务及CDN服务，部分地区可能无法访问。出现这种情况，可以尝试更换DNS服务器，然后清除浏览器缓存及DNS缓存，再尝试打开网站。</p><p>如仍然无法打开，可联系QQ1252343639。</p>]]></content>
     
     <summary type="html">
     
@@ -46,15 +46,16 @@
     <link href="https://imontlaji.github.io/blog/2019/06/08/%E8%AE%B0%E4%B8%80%E6%AC%A1%E9%9A%8F%E6%9C%BA%E5%9B%BE%E7%89%87API%E6%9C%8D%E5%8A%A1%E7%9A%84%E6%90%AD%E5%BB%BA%E8%BF%87%E7%A8%8B/"/>
     <id>https://imontlaji.github.io/blog/2019/06/08/记一次随机图片API服务的搭建过程/</id>
     <published>2019-06-08T14:44:43.000Z</published>
-    <updated>2019-06-09T06:36:33.272Z</updated>
+    <updated>2019-06-09T08:55:43.681Z</updated>
     
-    <content type="html"><![CDATA[<p>最近实在是有点闲，恰好之前写的Random Img的API被GFW干了，所以就想着来重写一个。废话不多说，进入正题！</p>]]></content>
+    <content type="html"><![CDATA[<h1 id="废话"><a href="#废话" class="headerlink" title="废话"></a>废话</h1><p>最近实在是有点闲，恰好之前写的随机图片的API被GFW干了，所以就想着来重写一个。废话不多说，进入正题！</p><blockquote><p>主要思路：利用PHP读取带有图片URL的文本文件，然后随机挑选其中一行，重写浏览器的URL为随机选中的图片文件的URL。</p></blockquote><h1 id="创建网站"><a href="#创建网站" class="headerlink" title="创建网站"></a>创建网站</h1><p>首先在宝塔面板里新建一个网站。<br><img src="https://cdn.imontlaji.xyz/img/Random_Img_Api/20190609144653.png" alt="图片"><br>然后在网站目录删除生成的index.html，新建一个index.php文件。<br><img src="https://cdn.imontlaji.xyz/img/Random_Img_Api/20190609144903.png" alt="图片"><br><img src="https://cdn.imontlaji.xyz/img/Random_Img_Api/20190609145034.png" alt="图片"></p><h1 id="编写index-php"><a href="#编写index-php" class="headerlink" title="编写index.php"></a>编写index.php</h1><p>接下来就开始编写代码了，我这里采用的是GET的方式来传递参数，来确定随机返回图片的分类。<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br></pre></td><td class="code"><pre><span class="line">&lt;?php </span><br><span class="line">if(isset($_GET[&quot;categories&quot;])) &#123;//是否有参数</span><br><span class="line">  $file_Name = $_GET[&quot;categories&quot;];//获取参数</span><br><span class="line">&#125; else &#123;</span><br><span class="line">  $file_Name = &quot;Asuka&quot;;//无参数时的文件名</span><br><span class="line">&#125;</span><br><span class="line">$file_Path = &quot;list/$file_Name.txt&quot;;//文件路径</span><br><span class="line">//echo $file_Path;</span><br><span class="line">if(file_exists(!$file_Path)) &#123;/判断文件是否存在</span><br><span class="line">  http_response_code(404);//返回404状态码</span><br><span class="line">  exit();</span><br><span class="line">&#125;</span><br><span class="line">$file_Arr = file($file_Path);//读入文件</span><br><span class="line">$line = count($file_Arr);//取文件行数</span><br><span class="line">$rand_Line = mt_rand(0, $line - 1);//生成随机数</span><br><span class="line">$image_Url = $file_Arr[$rand_Line];//根据行数取文本</span><br><span class="line">header(&quot;Location: $image_Url&quot;);//跳转</span><br><span class="line">?&gt;</span><br></pre></td></tr></table></figure></p><h1 id="目录管理"><a href="#目录管理" class="headerlink" title="目录管理"></a>目录管理</h1><p>记得要在网站的根目录里创建一个<code>list</code>目录，然后将带有图片URL的文本文件丢进里面，使用时<code>categories</code>参数要等于<code>list</code>目录里的文本文件去掉后缀的全名。</p><h1 id="图床"><a href="#图床" class="headerlink" title="图床"></a>图床</h1><p>然后图床的话，我推荐使用阿里云的OSS，套上Cloudflared的CDN，访问速度还不错，关键是价格还不贵（这才是重点）。图床管理工具可以试试<a href="https://github.com/Molunerfinn/PicGo/releases" target="_blank" rel="noopener">PicGo</a>，也是非常好用的说。</p><h1 id="效果"><a href="#效果" class="headerlink" title="效果"></a>效果</h1><p><a href="https://api.huajicloud.xyz/index.php" target="_blank" rel="noopener">随机图片API 无参数</a><br><a href="https://api.huajicloud.xyz/index.php?categories=Sight" target="_blank" rel="noopener">随机图片API 参数：Sight</a><br><a href="https://api.huajicloud.xyz/index.php?categories=Asuka" target="_blank" rel="noopener">随机图片API 参数：Asuka</a><br><a href="https://api.huajicloud.xyz/index.php?categories=Manga" target="_blank" rel="noopener">随机图片API 参数：Manga</a></p>]]></content>
     
     <summary type="html">
     
       
       
-        &lt;p&gt;最近实在是有点闲，恰好之前写的Random Img的API被GFW干了，所以就想着来重写一个。废话不多说，进入正题！&lt;/p&gt;
+        &lt;h1 id=&quot;废话&quot;&gt;&lt;a href=&quot;#废话&quot; class=&quot;headerlink&quot; title=&quot;废话&quot;&gt;&lt;/a&gt;废话&lt;/h1&gt;&lt;p&gt;最近实在是有点闲，恰好之前写的随机图片的API被GFW干了，所以就想着来重写一个。废话不多说，进入正题！&lt;/p&gt;
+&lt;blockquote&gt;
 
       
     

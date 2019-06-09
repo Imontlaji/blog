@@ -3,7 +3,7 @@
   <entry>
     <title><![CDATA[滑稽云最新公告及主站地址]]></title>
     <url>%2Fblog%2F2019%2F06%2F09%2F%E6%BB%91%E7%A8%BD%E4%BA%91%E6%9C%80%E6%96%B0%E5%85%AC%E5%91%8A%E5%8F%8A%E4%B8%BB%E7%AB%99%E5%9C%B0%E5%9D%80%2F</url>
-    <content type="text"><![CDATA[滑稽云主站地址目前主站可通过三个域名访问：滑稽云域名1滑稽云域名2滑稽云域名3 公告滑稽云目前使用了Cloudflare提供的解析服务及CDN服务，部分地区可能无法访问。出现这种情况，可以尝试更换DNS服务器，然后清除浏览器缓存及DNS缓存，再尝试打开网站。 如仍然无法打开，可联系QQ1252343639。]]></content>
+    <content type="text"><![CDATA[滑稽云主站地址目前主站可通过三个域名访问：滑稽云域名1滑稽云域名2滑稽云域名3 公告 滑稽云目前使用了Cloudflare提供的解析服务及CDN服务，部分地区可能无法访问。出现这种情况，可以尝试更换DNS服务器，然后清除浏览器缓存及DNS缓存，再尝试打开网站。 如仍然无法打开，可联系QQ1252343639。]]></content>
       <categories>
         <category>Other</category>
       </categories>
@@ -14,7 +14,7 @@
   <entry>
     <title><![CDATA[记一次随机图片API服务的搭建过程]]></title>
     <url>%2Fblog%2F2019%2F06%2F08%2F%E8%AE%B0%E4%B8%80%E6%AC%A1%E9%9A%8F%E6%9C%BA%E5%9B%BE%E7%89%87API%E6%9C%8D%E5%8A%A1%E7%9A%84%E6%90%AD%E5%BB%BA%E8%BF%87%E7%A8%8B%2F</url>
-    <content type="text"><![CDATA[最近实在是有点闲，恰好之前写的Random Img的API被GFW干了，所以就想着来重写一个。废话不多说，进入正题！]]></content>
+    <content type="text"><![CDATA[废话最近实在是有点闲，恰好之前写的随机图片的API被GFW干了，所以就想着来重写一个。废话不多说，进入正题！ 主要思路：利用PHP读取带有图片URL的文本文件，然后随机挑选其中一行，重写浏览器的URL为随机选中的图片文件的URL。 创建网站首先在宝塔面板里新建一个网站。然后在网站目录删除生成的index.html，新建一个index.php文件。 编写index.php接下来就开始编写代码了，我这里采用的是GET的方式来传递参数，来确定随机返回图片的分类。123456789101112131415161718&lt;?php if(isset($_GET[&quot;categories&quot;])) &#123; //是否有参数 $file_Name = $_GET[&quot;categories&quot;]; //获取参数&#125; else &#123; $file_Name = &quot;Asuka&quot;; //无参数时的文件名&#125;$file_Path = &quot;list/$file_Name.txt&quot;; //文件路径//echo $file_Path;if(file_exists(!$file_Path)) &#123; /判断文件是否存在 http_response_code(404); //返回404状态码 exit();&#125;$file_Arr = file($file_Path); //读入文件$line = count($file_Arr); //取文件行数$rand_Line = mt_rand(0, $line - 1); //生成随机数$image_Url = $file_Arr[$rand_Line]; //根据行数取文本header(&quot;Location: $image_Url&quot;); //跳转?&gt; 目录管理记得要在网站的根目录里创建一个list目录，然后将带有图片URL的文本文件丢进里面，使用时categories参数要等于list目录里的文本文件去掉后缀的全名。 图床然后图床的话，我推荐使用阿里云的OSS，套上Cloudflared的CDN，访问速度还不错，关键是价格还不贵（这才是重点）。图床管理工具可以试试PicGo，也是非常好用的说。 效果随机图片API 无参数随机图片API 参数：Sight随机图片API 参数：Asuka随机图片API 参数：Manga]]></content>
       <categories>
         <category>PHP</category>
       </categories>
