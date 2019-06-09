@@ -6,7 +6,7 @@
   <link href="/blog/atom.xml" rel="self"/>
   
   <link href="https://imontlaji.github.io/blog/"/>
-  <updated>2019-04-16T12:01:00.802Z</updated>
+  <updated>2019-06-09T06:11:25.138Z</updated>
   <id>https://imontlaji.github.io/blog/</id>
   
   <author>
@@ -15,6 +15,57 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>滑稽云最新公告及主站地址</title>
+    <link href="https://imontlaji.github.io/blog/2019/06/09/%E6%BB%91%E7%A8%BD%E4%BA%91%E6%9C%80%E6%96%B0%E5%85%AC%E5%91%8A%E5%8F%8A%E4%B8%BB%E7%AB%99%E5%9C%B0%E5%9D%80/"/>
+    <id>https://imontlaji.github.io/blog/2019/06/09/滑稽云最新公告及主站地址/</id>
+    <published>2019-06-09T06:06:40.000Z</published>
+    <updated>2019-06-09T06:11:25.138Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="滑稽云主站地址"><a href="#滑稽云主站地址" class="headerlink" title="滑稽云主站地址"></a>滑稽云主站地址</h1><p>目前主站可通过三个域名访问：<br><a href="www.huajicloud.xyz">滑稽云域名1</a><br><a href="www.imontlaji.xyz">滑稽云域名2</a><br><a href="www.xhhuangse.xyz">滑稽云域名3</a></p><h1 id="公告"><a href="#公告" class="headerlink" title="公告"></a>公告</h1><p>滑稽云目前使用了Cloudflare提供的解析服务及CDN服务，部分地区可能无法访问。出现这种情况，可以尝试更换DNS服务器，然后清除浏览器缓存及DNS缓存，再尝试打开网站。</p><p>如仍然无法打开，可联系QQ1252343639。</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h1 id=&quot;滑稽云主站地址&quot;&gt;&lt;a href=&quot;#滑稽云主站地址&quot; class=&quot;headerlink&quot; title=&quot;滑稽云主站地址&quot;&gt;&lt;/a&gt;滑稽云主站地址&lt;/h1&gt;&lt;p&gt;目前主站可通过三个域名访问：&lt;br&gt;&lt;a href=&quot;www.huajicloud.xyz&quot;&gt;滑稽云
+      
+    
+    </summary>
+    
+      <category term="Other" scheme="https://imontlaji.github.io/blog/categories/Other/"/>
+    
+    
+      <category term="网站信息" scheme="https://imontlaji.github.io/blog/tags/%E7%BD%91%E7%AB%99%E4%BF%A1%E6%81%AF/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>记一次随机图片API服务的搭建过程</title>
+    <link href="https://imontlaji.github.io/blog/2019/06/08/%E8%AE%B0%E4%B8%80%E6%AC%A1%E9%9A%8F%E6%9C%BA%E5%9B%BE%E7%89%87API%E6%9C%8D%E5%8A%A1%E7%9A%84%E6%90%AD%E5%BB%BA%E8%BF%87%E7%A8%8B/"/>
+    <id>https://imontlaji.github.io/blog/2019/06/08/记一次随机图片API服务的搭建过程/</id>
+    <published>2019-06-08T14:44:43.000Z</published>
+    <updated>2019-06-09T04:02:50.545Z</updated>
+    
+    <content type="html"><![CDATA[<pre><code>最近是真的闲的蛋疼</code></pre>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;pre&gt;&lt;code&gt;最近是真的闲的蛋疼
+&lt;/code&gt;&lt;/pre&gt;
+      
+    
+    </summary>
+    
+      <category term="PHP" scheme="https://imontlaji.github.io/blog/categories/PHP/"/>
+    
+    
+      <category term="实用教程" scheme="https://imontlaji.github.io/blog/tags/%E5%AE%9E%E7%94%A8%E6%95%99%E7%A8%8B/"/>
+    
+  </entry>
   
   <entry>
     <title>滑稽云使用教程</title>
