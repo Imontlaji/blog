@@ -14,7 +14,7 @@
   <entry>
     <title><![CDATA[记一次随机图片API服务的搭建过程]]></title>
     <url>%2Fblog%2F2019%2F06%2F08%2F%E8%AE%B0%E4%B8%80%E6%AC%A1%E9%9A%8F%E6%9C%BA%E5%9B%BE%E7%89%87API%E6%9C%8D%E5%8A%A1%E7%9A%84%E6%90%AD%E5%BB%BA%E8%BF%87%E7%A8%8B%2F</url>
-    <content type="text"><![CDATA[最近是真的闲的蛋疼]]></content>
+    <content type="text"><![CDATA[最近实在是有点闲，恰好之前写的Random Img的API被GFW干了，所以就想着来重写一个。废话不多说，进入正题！]]></content>
       <categories>
         <category>PHP</category>
       </categories>
