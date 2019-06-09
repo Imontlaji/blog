@@ -1952,7 +1952,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #a4ff99;
+  background: #8c73b9;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -2968,7 +2968,7 @@ hr {
   }
 }
 body {
-  background: url("http://image-blog-imontlaji.oss-cn-hongkong.aliyuncs.com/blog/background2.png");
+  background: url("https://cdn.imontlaji.xyz/blog/background2.png");
   background-position-x: 50%;
   background-repeat: no-repeat;
   background-attachment: fixed;
